@@ -426,6 +426,7 @@ function setup() {
   rectMode(CENTER); //四角形の基準点を中心に変更
   imageMode(CENTER); //エンティティの基準点を中心に変更
 
+  TopBGM.volume(1.0);
   TopBGM.loop();
   resetGame();
   drawStartScreen(); //スタート画面表示
