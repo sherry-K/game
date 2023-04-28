@@ -428,7 +428,7 @@ function setup() {
 
   TopBGM.loop();
   resetGame();
-  drawStartScreen();
+  drawStartScreen(); //スタート画面表示
   i = 0;
 }
 
